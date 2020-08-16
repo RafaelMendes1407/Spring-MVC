@@ -10,7 +10,11 @@ import org.springframework.web.filter.CorsFilter;
 
 @Configuration
 public class ConfigurationCors {
-
+	
+	// Essa classe serve para que a aplicação quando executada através de um navegador consiga uma resposta
+	// através do método Get, com permissões para acessar recursos selecionados de um servidor. Foi usada somente para
+	// desenvolvimento da aplicação React.
+	
 	@Bean
 	public FilterRegistrationBean<CorsFilter> corsFilter() {
 		UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();

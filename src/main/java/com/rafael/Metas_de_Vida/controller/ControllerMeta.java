@@ -19,7 +19,6 @@ public class ControllerMeta {
 	
 	Meta meta1 = new Meta("Altissima!!", "Entrar para o time da Zup.", true);
 	
-	//ListMetas listMetas = new ListMetas(meta1);
 	ArrayList<Meta> listMetas = new ArrayList<>();
 	 
 	public ControllerMeta() {
